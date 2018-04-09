@@ -1,8 +1,20 @@
 {
   "name": "disciply-login",
+  "version": "1.0.0",
+  "authors": [
+    "John Reemar Dela Rosa <jrddelarosa@gmail.com>"
+  ],
+  "description": "Main login element for the disciply site.",
+  "keywords": [
+    "web-component",
+    "polymer",
+    "login"
+  ],
+  "license": "Copyright Disciply. All rights reserved.",
   "main": "disciply-login.html",
   "dependencies": {
-    "polymer": "Polymer/polymer#^2.0.0"
+    "polymer": "Polymer/polymer#^2.0.0",
+    "login-fire": "convoo/login-fire#^1.1.0"
   },
   "devDependencies": {
     "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^2.0.0",
