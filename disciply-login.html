@@ -1,0 +1,36 @@
+<link rel="import" href="../polymer/polymer-element.html">
+
+<dom-module id="disciply-login">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]!</h2>
+  </template>
+
+  <script>
+    /**
+     * `disciply-login`
+     * 
+     *
+     * @customElement
+     * @polymer
+     * @demo demo/index.html
+     */
+    class DisciplyLogin extends Polymer.Element {
+      static get is() { return 'disciply-login'; }
+      static get properties() {
+        return {
+          prop1: {
+            type: String,
+            value: 'disciply-login'
+          }
+        };
+      }
+    }
+
+    window.customElements.define(DisciplyLogin.is, DisciplyLogin);
+  </script>
+</dom-module>
