@@ -2,7 +2,8 @@
   "name": "disciply-login",
   "version": "1.0.0",
   "authors": [
-    "John Reemar Dela Rosa <jrddelarosa@gmail.com>"
+    "John Reemar Dela Rosa <jrddelarosa@gmail.com>",
+    "Kyle Wilfred Dela Cruz <kylewilfredc@gmail.com>"
   ],
   "description": "Main login element for the disciply site.",
   "keywords": [
